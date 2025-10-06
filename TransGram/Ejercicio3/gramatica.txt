@@ -1,0 +1,10 @@
+# Gramática Ejercicio 3 - Sin recursividad por la izquierda
+S -> A B C S'
+S' -> uno S'
+S' -> epsilon
+A -> dos B C
+A -> epsilon
+B -> C tres
+B -> epsilon
+C -> cuatro B
+C -> epsilon
